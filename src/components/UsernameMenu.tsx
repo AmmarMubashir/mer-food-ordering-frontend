@@ -28,6 +28,14 @@ const UsernameMenu = () => {
         <Separator />
         <DropdownMenuItem className="mt-[10px]">
           <Link
+            to="/manage-restaurant"
+            className="flex items-center gap-2 text-gray-500 hover:text-orange-500 pl-2"
+          >
+            <UserRound /> <span className="pl-2">Manage Restaurant </span>
+          </Link>
+        </DropdownMenuItem>
+        <DropdownMenuItem className="mt-[10px]">
+          <Link
             to="/user-profile"
             className="flex items-center gap-2 text-gray-500 hover:text-orange-500 pl-2"
           >
