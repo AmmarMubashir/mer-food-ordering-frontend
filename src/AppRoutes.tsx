@@ -26,15 +26,15 @@ const AppRoutes = () => {
             </Layout>
           }
         />
+        <Route
+          path="/manage-restaurant"
+          element={
+            <Layout>
+              <ManageRestaurantPage />{" "}
+            </Layout>
+          }
+        />
       </Route>
-      <Route
-        path="/manage-restaurant"
-        element={
-          <Layout>
-            <ManageRestaurantPage />{" "}
-          </Layout>
-        }
-      />
       <Route path="/about" element={<span>About page</span>} />
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>

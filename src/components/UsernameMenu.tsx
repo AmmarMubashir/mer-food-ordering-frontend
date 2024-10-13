@@ -19,7 +19,10 @@ const UsernameMenu = () => {
       </DropdownMenuTrigger>
       <DropdownMenuContent className="mr-[60px]">
         <DropdownMenuItem className="flex gap-2">
-          <img src={user?.picture} className="h-[40px] w-[40px] rounded-full" />
+          <img
+            src={user?.picture}
+            className="h-[30px] w-[30pxpx] rounded-full"
+          />
           <div className="flex flex-col gap-1">
             <p className="text-sm font-medium text-gray-900">{user?.name}</p>
             <p className="text-sm text-gray-500">{user?.email}</p>
